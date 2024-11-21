@@ -1,0 +1,19 @@
+<resources>
+    <!-- Custom Style for TimePicker -->
+    <style name="TimePickerStyle" parent="ThemeOverlay.MaterialComponents.TimePicker">
+        <!-- General Appearance -->
+        <item name="android:timePickerMode">spinner</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <!-- Spinner Customization -->
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Customize NumberPicker in TimePicker -->
+    <style name="NumberPickerStyle">
+        <item name="android:textColor">#d4bf84</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>
